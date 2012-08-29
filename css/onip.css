@@ -1,0 +1,31 @@
+/* RESET ================================================================================== */
+body, ul, li, div, h1, h2, h3, h4, h5, h6, p, span { margin: 0px; border: 0px; padding: 0px; font-family: "Calibri" }
+ul, li { list-style: none; }
+
+
+
+/* GERAL ================================================================================== */
+body {width: 768px; height: 1024px; margin: auto; }
+
+
+/* HEADER ================================================================================== */
+header { width: 768px; height: 45px; background:url(../imagens/fundo.jpg) no-repeat; position: fixed; }
+header h1 { text-indent: -5000px; width: 133px; height: 35px; background-image:url(../imagens/logo.png); margin: 5px auto; } 
+#last { top: 45px; width: 752px; height: 19px; background: #dbdbdb; position: fixed; padding: 8px; }
+#last h2 { color: #d04040; font-size: 15px; float: left; margin-right: 5px; }
+#last h3 { color: #6e6e6e; font-size: 15px; }
+#index {background:url(../imagens/bck_slider.jpg); width:768px; height: 140px; padding: 10px 0; position: fixed; top: 80px; overflow: hidden; }
+
+#index ul { width: 1536px; }
+#index li { background-color: #222222; width: 120px; height: 140px; float: left; margin:4px; }
+#index li p { margin:-53px 0px 0px 8px; color: white; font-size: 12px; font-weight: bold; }
+ 
+#main { width: 768px; height: 720px; position: fixed; top: 240px; }
+
+footer {bottom: 0px; position: fixed;  }
+
+#banner { width: 768px; height: 90px;}
+#control { width: 768px; height: 35px; background-color: #191919; }
+#control ul { margin: auto; }
+#control li { width: 8px; height: 8px; background:url(../imagens/bolinha.jpg); float: left; margin-right:10px; position: relative; top: 15px; left: 40%; }
+#control li.active { width: 8px; height: 8px; background:url(../imagens/bolinha.jpg) no-repeat;}
